@@ -7,7 +7,9 @@
 import telebot
 import requests
 import random
-from settings import TOKEN
+
+TOKEN = '1011960299:AAFZ-SpNqLEeCrTiNWxTbncaRt4rRDm9bN0'
+#from settings import TOKEN
 
 
 users_scores = {}  # Storage for users scores
