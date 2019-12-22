@@ -12,9 +12,7 @@ import os
 import redis
 import json
 
-TOKEN = '1011960299:AAFZ-SpNqLEeCrTiNWxTbncaRt4rRDm9bN0'
-#from settings import TOKEN
-
+TOKEN = os.environ["BOT_TOKEN"]
 
 # Константы названий состяний конечного автомата
 MAIN_STATE = 'main'
