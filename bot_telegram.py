@@ -128,7 +128,7 @@ def main_handler(message):
     if message.text.lower() == '/start':
         bot.send_message(message.chat.id, 'Это бот-игра "Кто хочет стать миллионером"')
 
-    if message.text.lower() == 'quit':
+    elif message.text.lower() == 'quit':
         bot.send_message(message.chat.id, "Бот остановлен, сохраняем состояние на диск...")
         print("Бот остановлен, сохраняем состояние на диск...")
         dump_data()
